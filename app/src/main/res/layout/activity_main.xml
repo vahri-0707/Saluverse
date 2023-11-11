@@ -432,8 +432,8 @@
                             android:id="@+id/imageView311"
                             android:layout_width="26sp"
                             android:layout_height="26sp"
-                            android:layout_marginTop="16dp"
-                            android:layout_marginEnd="16dp"
+                            android:layout_marginTop="14dp"
+                            android:layout_marginEnd="14dp"
                             android:src="@drawable/ic_heartrate"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
@@ -485,8 +485,8 @@
 
                         <ImageView
                             android:id="@+id/imageView3111"
-                            android:layout_width="26sp"
-                            android:layout_height="26sp"
+                            android:layout_width="24sp"
+                            android:layout_height="24sp"
                             android:layout_marginTop="16dp"
                             android:layout_marginEnd="16dp"
                             android:src="@drawable/ic_weight"
@@ -533,6 +533,25 @@
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
             </HorizontalScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <nl.joery.animatedbottombar.AnimatedBottomBar
+                android:id="@+id/bottom_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF6363"
+                android:layout_alignParentBottom="True"
+                app:abb_indicatorAppearance="round"
+                app:abb_indicatorHeight="4dp"
+                app:abb_indicatorMargin="16dp"
+                app:abb_selectedIndex="1"
+                app:abb_selectedTabType="text"
+                />
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
