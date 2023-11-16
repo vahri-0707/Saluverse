@@ -6,4 +6,8 @@
     </style>
 
     <style name="Theme.Projectexpo" parent="Base.Theme.Projectexpo" />
+    
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/blue</item>
+    </style>
 </resources>

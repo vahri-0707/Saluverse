@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/today"
-        android:title="Today"/>
-    <item android:id="@+id/activity"
-        android:title="Activity"/>
-    <item android:id="@+id/medication"
-        android:title="Medication"/>
+    <item android:id="@+id/bottom_today"
+        android:title="Today"
+        android:icon="@drawable/nav_calendar_white"/>
+    <item android:id="@+id/bottom_activity"
+        android:title="Activity"
+        android:icon="@drawable/nav_activity_white"/>
+    <item android:id="@+id/bottom_article"
+        android:title="Article"
+        android:icon="@drawable/nav_article_gray"/>
+    <item android:id="@+id/bottom_medication"
+        android:title="Medication"
+        android:icon="@drawable/nav_medicine_gray"/>
+    <item android:id="@+id/bottom_profile"
+        android:title="Profile"
+        android:icon="@drawable/nav_profile_gray"/>
 
 </menu>
